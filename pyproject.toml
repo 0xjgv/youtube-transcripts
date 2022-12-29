@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "youtube-transcript"
+version = "0.1.0"
+description = ""
+authors = ["Juan Villamizar <juans.gaitan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "youtube_transcript"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+youtube-transcript-api = "^0.5.0"
+httpx = "^0.23.1"
+python-dotenv = "^0.21.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+flake8 = "^6.0.0"
+bandit = "^1.7.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
