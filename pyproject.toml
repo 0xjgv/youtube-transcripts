@@ -11,6 +11,7 @@ python = "^3.11"
 youtube-transcript-api = "^0.5.0"
 httpx = "^0.23.1"
 python-dotenv = "^0.21.0"
+openai = "^0.26.1"
 
 
 [tool.poetry.group.dev.dependencies]
