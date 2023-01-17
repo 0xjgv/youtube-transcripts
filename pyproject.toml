@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "youtube-transcript"
+name = "youtube-transcripts"
 version = "0.1.0"
 description = ""
 authors = ["Juan Villamizar <juans.gaitan@gmail.com>"]
 readme = "README.md"
-packages = [{include = "youtube_transcript"}]
+packages = [{include = "youtube_transcripts"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"

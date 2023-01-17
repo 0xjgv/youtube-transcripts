@@ -39,7 +39,7 @@ async def get_channel_video_ids(channel_id: str) -> list[str]:
 
 
 def get_youtube_transcripts(video_ids: list[str], should_overwrite=False):
-    transcripts_dir = Path("transcripts")
+    transcripts_dir = Path("./transcripts")
     transcripts_dir.mkdir(exist_ok=True)
 
     for video_id in video_ids:
