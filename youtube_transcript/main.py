@@ -13,7 +13,7 @@ async def get_channel_video_ids(channel_id: str) -> list[str]:
     # https://stackoverflow.com/questions/18953499/youtube-api-to-fetch-all-videos-on-a-channel
     upload_id = channel_id[:1] + "U" + channel_id[2:]
     print(f"Getting videos for {upload_id=} id from {channel_id=}")
-    api_key = os.getenv("API_KEY")
+    api_key = os.environ["API_KEY"]
 
     video_ids = []
     async with AsyncClient(

@@ -1,3 +1,3 @@
 # Youtube transcript downloader
 
-Run `python main.py`
+Run `python youtube_transcript/main.py`
